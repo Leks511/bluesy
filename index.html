@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="main-header">
     <nav class="main-navigation">
       <a class="logo">
-        <img src="http://placehold.it/126x21" alt="Bluesy logo" width="126" height="21">
+        <img src="img/logo.svg" alt="Logotype of portfolio site Blueasy"  width="128px" height="24px">
       </a>
       <ul class="site-navigation">
         <li><a href="#">home</a></li>
@@ -23,7 +24,9 @@
   </header>
   <main>
     <section class="title-section">
-      <h1>“I’m looking for the unexpected. I’m looking for things I’ve ne</h1>
+      <h1 class="visually-hidden">Portfolio of photograph John Doe</h1>
+      <blockquote>“I’m looking for the unexpected.
+      I’m looking for things I’ve never seen before.”</blockquote>
     </section>
 
     <section class="services">
@@ -108,7 +111,15 @@
     </section>
 
     <section class="contact">
-      <!--form-->
+      <form action="">
+        <label for="client-name">full name</label>
+        <input type="text" id="client-name" name="client-name">
+        <label for="client-email">email</label>
+        <input type="email" id="client-email" name="client-email">
+        <label for="client-message">message</label>
+        <textarea name="client-message" id="client-message"></textarea>
+        <button type="submit">message</button>
+      </form>
       <p>Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop halvah tootsie roll cake
       fruitcake. Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.</p>
       <p>Linda Newman
