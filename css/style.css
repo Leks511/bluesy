@@ -170,3 +170,59 @@ a {
   width: 270px;
   height: 270px;
 }
+
+.default-section {
+  background-color: #515f67;
+}
+
+.default-section h2 {
+  margin: 0;
+
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.default-section p {
+  margin: 0;
+
+  font-weight: 400;
+}
+
+.default-section a {
+  color: #353f46;
+
+  border: 2px solid #353f46;
+}
+
+.twitter-quote {
+  color: #ffffff;
+
+  background-color: #4bcaff;
+}
+
+.twitter-quote h2 {
+  margin: 0;
+
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.twitter-quote p {
+  margin: 0;
+
+  font-size: 28px;
+  line-height: 50px;
+  font-weight: 300;
+}
+
+.twitter-quote a {
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: none;
+}
