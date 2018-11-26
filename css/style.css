@@ -2,9 +2,171 @@ body {
   margin: 0;
   padding: 0;
 
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
   color: #ffffff;
+
+  background-color: #515f67;
 }
 
 a {
+  text-transform: uppercase;
   text-decoration: none;
+}
+
+.main-header {
+  background-color: rgba(81, 95, 103, 0.85);
+}
+
+.main-navigation {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.site-navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-navigation a {
+  color: rgba(255, 255, 255, 0.9);
+
+
+  border: 2px solid transparent;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.site-navigation a:active {
+  color: rgba(75, 202, 255, 1);
+
+  border: 2px solid #4bcaff;
+}
+
+.title-section {
+  text-align: center;
+
+  background-color: #515f67;
+  background-image: url("../img/title-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.title-section blockquote {
+  font-size: 42px;
+  line-height: 75px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.title-section span {
+  padding: 0 20px;
+
+  background-color: rgba(81, 95, 103, 0.85);
+}
+
+.title-section span:first-child {
+  margin-bottom: -7px;
+}
+
+.services {
+  text-align: left;
+
+  background-color: #4bcaff;
+}
+
+.services h2 {
+  margin: 0;
+
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.service-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.service-list h3 {
+  margin: 0;
+
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.service-list p {
+  margin: 0;
+
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+}
+
+.portfolio {
+  background-color: #ffffff;
+}
+
+.portfolio h2 {
+  margin: 0;
+
+  color: #515f67;
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.sorting-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sorting-list a {
+  color: rgba(81, 95, 103, 0.9);
+  font-weight: 700;
+
+  border: 2px solid transparent;
+}
+
+.sorting-list a:hover,
+.sorting-list a:focus,
+.sorting-list a:active {
+  color: rgba(75, 202, 255, 1);
+
+  border: 2px solid #4bcaff;
+}
+
+.portfolio-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-item {
+  width: 270px;
+  height: 270px;
+
+  background-color: #7d7d7d;
+}
+
+.portfolio-item a {
+  display: block;
+  width: 270px;
+  height: 270px;
+}
+
+.portfolio-item img {
+  width: 270px;
+  height: 270px;
 }
