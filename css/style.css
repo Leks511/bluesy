@@ -178,7 +178,6 @@ a {
 .default-section h2 {
   margin: 0;
 
-  color: #ffffff;
   font-size: 30px;
   line-height: 24px;
   font-weight: 300;
@@ -198,15 +197,12 @@ a {
 }
 
 .twitter-quote {
-  color: #ffffff;
-
   background-color: #4bcaff;
 }
 
 .twitter-quote h2 {
   margin: 0;
 
-  color: #ffffff;
   font-size: 30px;
   line-height: 24px;
   font-weight: 300;
@@ -225,4 +221,109 @@ a {
   color: #ffffff;
   font-weight: 600;
   text-transform: none;
+}
+
+.about-author {
+  background-color: #353f46;
+  background-image: url('../img/photograph-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.about-author h2 {
+  margin: 0;
+
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+
+.about-author p {
+  margin: 0;
+
+  font-weight: 400;
+}
+
+.account-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.account-item a {
+  color: #ffffff;
+}
+
+.testimonials {
+  color: #515f67;
+
+  background-color: #ffffff;
+}
+
+.testimonials h2 {
+  margin: 0;
+
+  text-transform: uppercase;
+}
+
+.testimonials cite {
+  color: #4bcaff;
+  font-weight: 700;
+  line-height: 50px;
+  font-style: normal;
+}
+
+.contact {
+  background-image: url('../img/contact-bg.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.contact h2 {
+  margin: 0;
+
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.contact p {
+  margin: 0;
+
+  font-weight: 600;
+}
+
+.contact-form label {
+  text-transform: uppercase;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+
+.contact-form button[type="submit"] {
+  text-transform: uppercase;
+}
+
+.main-footer {
+  color: #515f67;
+
+  background-color: #353f47;
+}
+
+.footer-navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-navigation a {
+  color: #515f67;
 }
