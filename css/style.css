@@ -11,16 +11,45 @@ body {
   background-color: #515f67;
 }
 
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1170px;
+}
+
 a {
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .main-header {
-  background-color: rgba(81, 95, 103, 0.85);
+  position: absolute;
+
+  width: 100%;
+
+  background-color: rgba(53, 63, 70, 0.85);
 }
 
 .main-navigation {
+  display: flex;
+  justify-content: space-between;
+
   color: #ffffff;
   font-weight: 700;
   text-transform: uppercase;
@@ -48,6 +77,8 @@ a {
 }
 
 .title-section {
+  padding: 360px 0 250px;
+
   text-align: center;
 
   background-color: #515f67;
@@ -58,6 +89,8 @@ a {
 }
 
 .title-section blockquote {
+  margin: 0;
+
   font-size: 42px;
   line-height: 75px;
   font-weight: 300;
@@ -75,6 +108,8 @@ a {
 }
 
 .services {
+  padding: 80px 0 70px;
+
   text-align: left;
 
   background-color: #4bcaff;
@@ -93,6 +128,13 @@ a {
   list-style: none;
   margin: 0;
   padding: 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-item {
+  width: 270px;
 }
 
 .service-list h3 {
@@ -113,6 +155,8 @@ a {
 }
 
 .portfolio {
+  padding: 80px 0 80px;
+
   background-color: #ffffff;
 }
 
@@ -172,6 +216,8 @@ a {
 }
 
 .default-section {
+  padding: 80px 0 80px;
+
   background-color: #515f67;
 }
 
@@ -197,6 +243,8 @@ a {
 }
 
 .twitter-quote {
+  padding: 80px 0 70px;
+
   background-color: #4bcaff;
 }
 
@@ -224,6 +272,8 @@ a {
 }
 
 .about-author {
+  padding: 100px 0 170px;
+
   background-color: #353f46;
   background-image: url('../img/photograph-bg.png');
   background-repeat: no-repeat;
@@ -258,6 +308,8 @@ a {
 }
 
 .testimonials {
+  padding: 80px 0 60px;
+
   color: #515f67;
 
   background-color: #ffffff;
@@ -277,6 +329,8 @@ a {
 }
 
 .contact {
+  padding: 80px 0 80px;
+
   background-image: url('../img/contact-bg.png');
   background-repeat: no-repeat;
   background-position: center center;
