@@ -27,10 +27,15 @@ body {
   overflow: hidden;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  width: 1170px;
+  max-width: 1170px;
 }
 
 a {
@@ -38,10 +43,37 @@ a {
   text-decoration: none;
 }
 
+.typically-header {
+  position: relative;
+
+  margin: 0;
+  padding-bottom: 12px;
+
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.typically-header::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 45px;
+  height: 2px;
+
+  background-color: #ffffff;
+}
+
 .main-header {
   position: absolute;
 
   width: 100%;
+  padding: 60px 0;
 
   background-color: rgba(53, 63, 70, 0.85);
 }
@@ -59,13 +91,26 @@ a {
   list-style: none;
   margin: 0;
   padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.site-navigation li {
+  margin-right: 10px;
 }
 
 .site-navigation a {
+  padding: 5px 17px;
+
+  font-weight: 700;
   color: rgba(255, 255, 255, 0.9);
 
-
   border: 2px solid transparent;
+}
+
+.site-navigation a:last-child {
+  margin-right: 0;
 }
 
 .site-navigation a:hover,
@@ -88,23 +133,27 @@ a {
   background-size: cover;
 }
 
-.title-section blockquote {
+.title-text {
   margin: 0;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   font-size: 42px;
-  line-height: 75px;
+  line-height: 50px;
   font-weight: 300;
   text-transform: uppercase;
 }
 
 .title-section span {
-  padding: 0 20px;
+  padding: 0px 20px 7px;
 
   background-color: rgba(81, 95, 103, 0.85);
 }
 
 .title-section span:first-child {
-  margin-bottom: -7px;
+  margin-bottom: 12px;
 }
 
 .services {
@@ -116,12 +165,7 @@ a {
 }
 
 .services h2 {
-  margin: 0;
-
-  font-size: 30px;
-  line-height: 24px;
-  font-weight: 300;
-  text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
 .service-list {
@@ -164,10 +208,10 @@ a {
   margin: 0;
 
   color: #515f67;
-  font-size: 30px;
-  line-height: 24px;
-  font-weight: 300;
-  text-transform: uppercase;
+}
+
+.portfolio h2::after {
+  background-color: #515f67;
 }
 
 .sorting-list {
@@ -222,12 +266,7 @@ a {
 }
 
 .default-section h2 {
-  margin: 0;
-
-  font-size: 30px;
-  line-height: 24px;
-  font-weight: 300;
-  text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 .default-section p {
@@ -249,12 +288,7 @@ a {
 }
 
 .twitter-quote h2 {
-  margin: 0;
-
-  font-size: 30px;
-  line-height: 24px;
-  font-weight: 300;
-  text-transform: uppercase;
+  margin-bottom: ;
 }
 
 .twitter-quote p {
@@ -282,14 +316,8 @@ a {
 }
 
 .about-author h2 {
-  margin: 0;
-
-  font-size: 30px;
-  line-height: 24px;
-  font-weight: 300;
-  text-transform: uppercase;
+  margin-bottom: ;
 }
-
 
 .about-author p {
   margin: 0;
@@ -316,9 +344,13 @@ a {
 }
 
 .testimonials h2 {
-  margin: 0;
+  margin-bottom: ;
 
-  text-transform: uppercase;
+  color: #515f67;
+}
+
+.testimonials h2::after {
+  background-color: #515f67;
 }
 
 .testimonials cite {
@@ -338,12 +370,7 @@ a {
 }
 
 .contact h2 {
-  margin: 0;
-
-  font-size: 30px;
-  line-height: 24px;
-  font-weight: 300;
-  text-transform: uppercase;
+  margin-bottom: ;
 }
 
 .contact p {
