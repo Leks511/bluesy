@@ -157,7 +157,7 @@ a {
 }
 
 .services {
-  padding: 80px 0 70px;
+  padding: 80px 0 75px;
 
   text-align: left;
 
@@ -165,7 +165,7 @@ a {
 }
 
 .services h2 {
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 
 .service-list {
@@ -174,6 +174,7 @@ a {
   padding: 0;
 
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -181,8 +182,18 @@ a {
   width: 270px;
 }
 
+.service-item .img-container {
+  display: flex;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
 .service-list h3 {
   margin: 0;
+
+  margin-bottom: 15px;
 
   font-size: 24px;
   line-height: 24px;
@@ -204,6 +215,13 @@ a {
   background-color: #ffffff;
 }
 
+.portfolio .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
 .portfolio h2 {
   margin: 0;
 
@@ -218,9 +236,22 @@ a {
   list-style: none;
   margin: 0;
   padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sorting-list li {
+  margin-right: 10px;
+}
+
+.sorting-list li:last-child {
+  margin-right: 0;
 }
 
 .sorting-list a {
+  padding: 5px 17px;
+
   color: rgba(81, 95, 103, 0.9);
   font-weight: 700;
 
@@ -239,13 +270,18 @@ a {
   list-style: none;
   margin: 0;
   padding: 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
 }
 
 .portfolio-item {
-  width: 270px;
-  height: 270px;
-
   background-color: #7d7d7d;
+}
+
+.portfolio-item:nth-child(4n) {
+  margin-right: 0;
 }
 
 .portfolio-item a {
@@ -260,19 +296,39 @@ a {
 }
 
 .default-section {
-  padding: 80px 0 80px;
+  padding: 80px 0;
 
   background-color: #515f67;
 }
 
+.default-section > .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column-info {
+  width: 470px;
+}
+
+.column-video {
+  width: 560px;
+}
+
 .default-section h2 {
-  margin-bottom: 0;
+  margin-bottom: 35px;
 }
 
 .default-section p {
   margin: 0;
 
+  margin-bottom: 30px;
+
   font-weight: 400;
+}
+
+.default-section p:last-child {
+  margin-bottom: 15px;
 }
 
 .default-section a {
