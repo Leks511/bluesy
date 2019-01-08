@@ -1,2 +1,0 @@
-# bluesy
-simple portfolio
